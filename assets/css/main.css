@@ -3353,6 +3353,11 @@ input, select, textarea {
 			width: 48%; /* Resimlerin genişliği */
 		}
 
+		.resim-boyutu {
+			width: 645px;
+			height: 745px;
+			object-fit: cover; /* Bu, resmin orantısını koruyarak uygun şekilde kesilmesini sağlar */
+		}
 /* Wrapper */
 
 	#wrapper > * > .inner {
